@@ -1,0 +1,77 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: 16px;
+    margin: 0 0 20px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.1);
+
+}
+
+.editInput {
+    padding: 10px 0;
+    margin-left: 9px;
+    width: 530px;
+    font-size: 16px;
+    font-family: Roboto;
+    border: 0;
+    outline: none;
+
+}
+
+.saveBtn {
+    width: 80px;
+    height: 45px;
+    background: #585292;
+    border: 0;
+    margin-right: -10px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    font-family: Roboto;
+    outline: none;
+
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 10px;
+}
+
+.menuIcon {
+    font-size: 19.2px;
+    padding: 3px 15px;
+    color: #9796A8;
+}
+
+.dropdownMenu {
+    position: absolute;
+    background: white;
+    top: 30px;
+    right: 15px;
+    padding: 15px 60px 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .item {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .editInput {
+        font-size: 14px;
+    }
+    .checkBox {
+        width: 15px;
+        height: 15px;
+    }
+  }
